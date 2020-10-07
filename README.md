@@ -22,5 +22,5 @@
 
 ### Clone
 
-- Clone this repo to your local machine using `https://github.com/devraizer/Cosmic.git`
+- Clone this repo to your local machine using `https://github.com/Konariih/Cosmic`
 
