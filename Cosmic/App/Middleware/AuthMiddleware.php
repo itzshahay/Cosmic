@@ -30,7 +30,7 @@ class AuthMiddleware implements IMiddleware
         
         $language = isset($_COOKIE['language']) ? $_COOKIE['language'] : 'en';
         if (!isset($_COOKIE['language'])) {
-            setcookie('language', $language, time() + (10 * 365 * 24 * 60 * 60), "/");
+            setcookie('language', $language, time() + (10 * 365 * 24 * 60 * 60), '/');
         }
     }
 }
